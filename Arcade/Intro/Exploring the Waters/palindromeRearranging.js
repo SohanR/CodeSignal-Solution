@@ -13,6 +13,7 @@ function palindromeRearranging(inputString) {
     
     
     let oddCount =0;
+    
     for(val in letterObj){
         if(letterObj[val] % 2 != 0){
             oddCount++
